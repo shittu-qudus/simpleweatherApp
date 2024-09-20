@@ -1,0 +1,48 @@
+.container{
+    height: 500px;
+    background-color: rgb(196, 157, 196);
+    width: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 10px;
+}
+h2{margin: 60px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    left: 30px;
+}
+.sub{
+    top: -60px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+
+}
+.wrapper{
+    top: -170px;
+    padding: 10px;
+    margin: 60px;
+    position: relative;
+}
+#inputcity{
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+button{
+    height: 35px;
+    border-radius: 5px;
+    width: 70px;
+    color: white;
+    background-color: rgb(26, 45, 93);
+
+}
+button:hover{
+    background-color: rgb(26, 76, 201);;
+}

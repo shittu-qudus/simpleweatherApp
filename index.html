@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+
+
+    <div  class="container">
+        <h2>weather App</h2>
+        <div class="sub"><input placeholder="enter a city" id="inputcity">
+            <button id="button" onclick="api()">search</button></div>
+         <br>
+         <div class="wrapper">
+            <p class="info" id="city">City-Unknown</p>
+            <p class="info"id="country">Country-</p>
+            <p class="info"id="region">Region -</p>
+            <p class="info"id="humidity">Humidity</p>
+            <p class="info"id="temp">Temperature-</p>
+            <img id="pic" alt="condition" src="" style="display: none;">
+            <p class="info"id="condition">condition -</p>
+
+
+         </div>
+                
+    </div>
+    
+</body>
+<script src="api.js"></script>
+</html>
